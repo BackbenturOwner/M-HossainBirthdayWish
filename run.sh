@@ -14,7 +14,7 @@ declare -a banner_lines=(
 "██╔══██╗    ████╔═████║ ██║ ╚═══██╗██╔══██║"
 "██████╦╝    ╚██╔╝ ╚██╔╝ ██║██████╔╝██║  ██║"
 "╚═════╝      ╚═╝   ╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝"
-"                                 By RUR999"
+"                                 By M-HOSSAIN"
 )
 
 banner() {
@@ -86,7 +86,7 @@ done
 
 birthday_name=$(echo "$birthday_name" | tr '[:lower:]' '[:upper:]')
 
-DEFAULT_IMG_URL="https://i.top4top.io/p_3504bj6oh0.jpg"
+DEFAULT_IMG_URL="https://b.top4top.io/p_3704eqajg0.jpg"
 echo -e "\n${B}Enter The URL Of The Image Or Local File Path (Press Enter For Default)${N}"
 echo -en "${C}Image URL/PATH${N}: "
 read image_input
@@ -116,7 +116,7 @@ else
     fi
 fi
 
-DEFAULT_MUSIC_URL="https://a.top4top.io/m_3503lpmcm0.mp3"
+DEFAULT_MUSIC_URL="https://l.top4top.io/m_3704x63qn0.mp3"
 echo -e "\n${B}Enter The URL Of The Music Or Local File Path (Press Enter For Default)${N}"
 echo -en "${C}Music URL/PATH${N}: "
 read music_input
